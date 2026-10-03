@@ -12,13 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| GY-521 MPU6050 ElectroPeak SEN-03-004 | — | 1 | $0.00 | $0.00 | — |
-| SSD1306 I2C OLED ElectroPeak LCD-01-125 | — | 1 | $0.00 | $0.00 | — |
-| Adafruit 367 tactile button 20-pack | — | 1 | $0.00 | $0.00 | — |
-| Optional I2C pull-up resistors R1 R2 | — | 2 | $0.00 | $0.00 | — |
-| XIAO socket strips | — | 2 | $0.00 | $0.00 | — |
-| XIAO male header strips | — | 2 | $0.00 | $0.00 | — |
-| Carrier module headers | — | 2 | $0.00 | $0.00 | — |
 | Module wire harnesses | — | 2 | $0.00 | $0.00 | — |
 | Module male headers | — | 1 | $0.00 | $0.00 | — |
 | Carrier PCB fabrication | — | 1 | $0.00 | $0.00 | — |
