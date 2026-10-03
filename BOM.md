@@ -16,7 +16,7 @@
 | [USB-A to USB-C data cable, 1 m (Cvilux DH-20M50052)](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50052/13177409) | Power and programming from the car's USB port | 1 | $1.80 | $1.80 | [DigiKey](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50052/13177409) |
 | [3M 4026 double-sided mounting square, 3/4 in](https://www.digikey.com/en/products/detail/3m/4026-3-4-X3-4/1818870) | Sticks the device flat to the dashboard | 1 | $0.36 | $0.36 | [DigiKey](https://www.digikey.com/en/products/detail/3m/4026-3-4-X3-4/1818870) |
 | **Parts subtotal** | — | — | — | **$17.11** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$17.11** | — |
+| **Tax & shipping** | — | — | — | **$8.98** | — |
+| **Total** | — | — | — | **$26.09** | — |
 
-$12.89 left of the tier's funding.
+$3.91 left of the tier's funding.
