@@ -12,15 +12,14 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [XIAO ESP32S3](https://digikey.com/en/products/detail/seeed-technology-co-ltd/113991114/19285530) | to communicate with other components | 1 | $7.49 | $7.49 | [DigiKey](https://digikey.com/en/products/detail/seeed-technology-co-ltd/113991114/19285530) |
 | [GY-521 MPU6050](https://electropeak.com/gyro-accelerometer-gy521-mpu6050) | gyroscope to track driving | 1 | $1.96 | $1.96 | [ElectroPeak](https://electropeak.com/gyro-accelerometer-gy521-mpu6050) |
 | [SSD1306 OLED](https://electropeak.com/0-96-inch-i2c-oled-display-module-ssd1306) | screen for driving metrics | 1 | $1.29 | $1.29 | [ElectroPeak](https://electropeak.com/0-96-inch-i2c-oled-display-module-ssd1306) |
 | [Matching C&K tactile button](https://www.digikey.com/en/products/detail/c-k/PTS645SL50-2-LFS/1146781) | button to use drivedot | 1 | $0.28 | $0.28 | [DigiKey](https://www.digikey.com/en/products/detail/c-k/PTS645SL50-2-LFS/1146781) |
 | [Seven-pin female sockets](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC071LFBN-RC/810146) | engineering parts together | 2 | $1.16 | $2.32 | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC071LFBN-RC/810146) |
 | [36-pin male header strip](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC036SAAN-RC/2775218) | connecting parts | 1 | $0.65 | $0.65 | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC036SAAN-RC/2775218) |
 | [Female-to-female jumper wires](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1951/6827085) | https://www.digikey.com/en/products/detail/adafruit-industries-llc/1951/6827085 | 20 | $1.95 | $39.00 | [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1951/6827085) |
-| **Parts subtotal** | — | — | — | **$52.99** | — |
+| **Parts subtotal** | — | — | — | **$45.50** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$52.99** | — |
+| **Total** | — | — | — | **$45.50** | — |
 
-**$22.99 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$15.50 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
