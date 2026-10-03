@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">DriveDot planned hardware architecture</title>
+<desc id="desc">USB powers an ESP32-S3 development board. An MPU6050 and SSD1306 OLED share I2C on GPIO8 and GPIO9. A start and stop button connects GPIO4 to ground. This is a concept diagram, not a manufactured board.</desc>
+<rect width="1280" height="720" fill="#10121a"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="72" y="86" fill="#f4f5fb" font-size="42" font-weight="700">DriveDot</text>
+<text x="72" y="126" fill="#aeb5cd" font-size="21">A little dashboard device for smoother drives.</text>
+<rect x="932" y="55" width="274" height="38" rx="19" fill="#25233a"/>
+<text x="1069" y="80" text-anchor="middle" fill="#c2b9fa" font-size="15" font-weight="700">CONCEPT / DESIGN IN PROGRESS</text>
+<g fill="none" stroke="#b8a9fa" stroke-width="3">
+<path d="M290 348 H430"/>
+<path d="M730 332 H794 V251 H866"/>
+<path d="M794 332 V391 H866"/>
+<path d="M730 438 H794 V536 H866"/>
+</g>
+<rect x="74" y="295" width="216" height="106" rx="18" fill="#1d2130" stroke="#455069"/>
+<text x="182" y="337" text-anchor="middle" fill="#f4f5fb" font-size="25" font-weight="700">USB power</text>
+<text x="182" y="370" text-anchor="middle" fill="#aeb5cd" font-size="16">Dev board USB port</text>
+<rect x="430" y="272" width="300" height="224" rx="22" fill="#29243e" stroke="#b8a9fa"/>
+<text x="580" y="328" text-anchor="middle" fill="#f4f5fb" font-size="31" font-weight="700">ESP32-S3</text>
+<text x="580" y="364" text-anchor="middle" fill="#c2b9fa" font-size="18">Development board</text>
+<text x="580" y="407" text-anchor="middle" fill="#d7dbea" font-size="17">Calibration + motion filtering</text>
+<text x="580" y="438" text-anchor="middle" fill="#d7dbea" font-size="17">Event counts + drive summary</text>
+<rect x="866" y="194" width="340" height="114" rx="18" fill="#1d2130" stroke="#455069"/>
+<text x="894" y="237" fill="#f4f5fb" font-size="25" font-weight="700">MPU6050 IMU</text>
+<text x="894" y="272" fill="#aeb5cd" font-size="17">Measures motion / I2C 0x68</text>
+<rect x="866" y="335" width="340" height="114" rx="18" fill="#1d2130" stroke="#455069"/>
+<text x="894" y="378" fill="#f4f5fb" font-size="25" font-weight="700">SSD1306 OLED</text>
+<text x="894" y="413" fill="#aeb5cd" font-size="17">128 × 64 display / I2C 0x3C</text>
+<rect x="866" y="479" width="340" height="114" rx="18" fill="#1d2130" stroke="#455069"/>
+<text x="894" y="523" fill="#f4f5fb" font-size="25" font-weight="700">Start / stop button</text>
+<text x="894" y="558" fill="#aeb5cd" font-size="17">GPIO4 to GND / internal pull-up</text>
+<text x="436" y="225" fill="#c2b9fa" font-size="18">Shared I2C: SDA GPIO8 / SCL GPIO9</text>
+<text x="72" y="634" fill="#d7dbea" font-size="20">Standalone hardware. No connection to the car's electronics.</text>
+<text x="72" y="674" fill="#8f98b3" font-size="16">Planned architecture only; not a finished PCB, CAD render, or photo of built hardware.</text>
+</g></svg>
