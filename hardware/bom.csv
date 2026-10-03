@@ -1,0 +1,10 @@
+item,quantity,target_unit_usd,target_total_usd,specification,supplier_url,quote_status
+ESP32-S3 development board,1,7.00,7.00,"USB-to-UART; N8 8MB flash/no PSRAM; confirm board pinout",,unquoted budget target
+MPU6050 breakout,1,3.00,3.00,"I2C; verified 3.3V supply and logic compatibility",,unquoted budget target
+SSD1306 OLED,1,3.00,3.00,"128x64; I2C address 0x3C; verified 3.3V operation",,unquoted budget target
+Momentary push button,1,0.50,0.50,normally open,,unquoted budget target
+Headers and wire,1,1.50,1.50,match measured module headers,,unquoted budget target
+Prototype carrier PCB allocation,1,5.00,5.00,"design pending; check minimum order and shipping",,unquoted budget target
+3D print and fasteners,1,2.00,2.00,"design pending; access to printer assumed",,unquoted budget target
+USB data cable,1,2.00,2.00,connector depends on selected board,,unquoted budget target
+Shipping and tax allowance,1,6.00,6.00,replace with actual checkout costs,,unquoted budget target
