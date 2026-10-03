@@ -12,12 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| Module wire harnesses | — | 2 | $0.00 | $0.00 | — |
-| Module male headers | — | 1 | $0.00 | $0.00 | — |
-| Carrier PCB fabrication | — | 1 | $0.00 | $0.00 | — |
-| Printed enclosure set | — | 1 | $0.00 | $0.00 | — |
-| M3x10 lid screws | — | 4 | $0.00 | $0.00 | — |
-| M3x6 carrier screws | — | 4 | $0.00 | $0.00 | — |
 | M2x6 internal screws | — | 9 | $0.00 | $0.00 | — |
 | Non-slip pads and mounting supplies | — | 1 | $0.00 | $0.00 | — |
 | USB-C data cable | — | 1 | $0.00 | $0.00 | — |
