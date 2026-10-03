@@ -12,7 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| Seeed Studio XIAO ESP32S3 SKU 113991114 | — | 1 | $0.00 | $0.00 | — |
 | GY-521 MPU6050 ElectroPeak SEN-03-004 | — | 1 | $0.00 | $0.00 | — |
 | SSD1306 I2C OLED ElectroPeak LCD-01-125 | — | 1 | $0.00 | $0.00 | — |
 | Adafruit 367 tactile button 20-pack | — | 1 | $0.00 | $0.00 | — |
