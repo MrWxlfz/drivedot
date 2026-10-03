@@ -2,9 +2,9 @@
 
 ## Setup
 
-Install PlatformIO through its VS Code extension or `python3 -m pip install platformio==6.1.18`. Open the `firmware` folder. The pinned PlatformIO environment targets an ESP32-S3-DevKitC-1 N8 without PSRAM and uses its USB-to-UART programming port.
+Install PlatformIO through its VS Code extension or `python3 -m pip install platformio==6.1.18`. Open the `firmware` folder. The pinned PlatformIO environment targets the standard Seeed Studio XIAO ESP32S3 and uses its USB-C port for power, upload and native USB serial. The selected board manifest enables USB CDC at boot. Use a data-capable cable.
 
-Other S3 variants, flash sizes or native-USB arrangements need matching board settings. Check the vendor documentation; don't copy a generic pin map onto a different board. Update `include/config.h` for different pins and I²C addresses.
+Other S3 variants, flash sizes or native-USB arrangements need matching board settings. Check the vendor documentation; don't copy a generic pin map onto a different board. Update `include/config.h` for different pins and I²C addresses. This selection uses D4/GPIO5 for SDA, D5/GPIO6 for SCL and D3/GPIO4 for the button. If upload cannot find the board, hold BOOT while connecting USB, release it, then retry; see the [manufacturer's guide](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/).
 
 ## Controls
 

@@ -1,10 +1,10 @@
-item,quantity,target_unit_usd,target_total_usd,specification,supplier_url,quote_status
-ESP32-S3 development board,1,7.00,7.00,"USB-to-UART; N8 8MB flash/no PSRAM; confirm board pinout",,unquoted budget target
-MPU6050 breakout,1,3.00,3.00,"I2C; verified 3.3V supply and logic compatibility",,unquoted budget target
-SSD1306 OLED,1,3.00,3.00,"128x64; I2C address 0x3C; verified 3.3V operation",,unquoted budget target
-Momentary push button,1,0.50,0.50,normally open,,unquoted budget target
-Headers and wire,1,1.50,1.50,match measured module headers,,unquoted budget target
-Prototype carrier PCB allocation,1,5.00,5.00,"design pending; check minimum order and shipping",,unquoted budget target
-3D print and fasteners,1,2.00,2.00,"design pending; access to printer assumed",,unquoted budget target
-USB data cable,1,2.00,2.00,connector depends on selected board,,unquoted budget target
-Shipping and tax allowance,1,6.00,6.00,replace with actual checkout costs,,unquoted budget target
+item,quantity,unit_usd,total_usd,specification,supplier_url,price_status
+Seeed Studio XIAO ESP32S3 SKU 113991114,1,7.49,7.49,"standard unsoldered 1pcs version; USB-C; not Sense or Plus",https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html,listed USD price checked 2026-10-02; checkout not quoted
+GY-521 MPU6050 ElectroPeak SEN-03-004,1,1.96,1.96,"I2C; VCC at 3.3V; verify received module",https://electropeak.com/gyro-accelerometer-gy521-mpu6050,listed USD price checked 2026-10-02; checkout not quoted
+SSD1306 I2C OLED ElectroPeak LCD-01-125,1,1.29,1.29,"128x64; 4-pin I2C; request white option; confirm selected variant price",https://electropeak.com/0-96-inch-i2c-oled-display-module-ssd1306,listed base USD price checked 2026-10-02; variant checkout not quoted
+Adafruit 367 tactile button 20-pack,1,2.50,2.50,"one full 20-pack purchase; use one button; 6mm through-hole",https://www.adafruit.com/product/367,listed USD pack price checked 2026-10-02; checkout not quoted
+Headers and wire,1,1.50,1.50,"unquoted allowance; verify included headers and available wire",,estimate only; supplier pending
+Carrier PCB fabrication,1,5.00,5.00,"unquoted allowance; minimum order and PCB shipping pending",,estimate only; supplier pending
+Enclosure printing and fasteners,1,2.00,2.00,"unquoted allowance; printer access and material pending",,estimate only; supplier pending
+USB-C data cable,1,2.00,2.00,"unquoted allowance; confirm available cable before adding a purchase",,estimate only; supplier pending
+Shipping tax and import charges,1,,,"unknown; requires all supplier checkout quotes; not zero",,unquoted; full total cannot yet be calculated

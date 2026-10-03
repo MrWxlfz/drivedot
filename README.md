@@ -17,12 +17,12 @@ early. i used ai to scaffold the repo, so the structure and starter code came fr
 - **done:** concept, requirements, wiring plan
 - **written, not tested on hardware:** esp32 firmware and oled ui
 - **tested on my computer:** motion/event logic
-- **rough:** parts list (budget targets, no real quotes yet)
+- **sourced:** controller, imu, screen and button supplier listings; shipping, pcb and enclosure costs still need quotes
 - **still to do:** pcb in KiCad, enclosure (once i've measured the actual modules), journal and demo evidence
 
 ## version 1
 
-- ESP32-S3 dev board, MPU6050 breakout, 128×64 SSD1306 OLED over I²C
+- Seeed Studio XIAO ESP32S3, GY-521 MPU6050 breakout, 128×64 SSD1306 OLED over I²C
 - calibrate while parked before each session
 - live forward/lateral acceleration with a g-force dot
 - button to start/stop, then a summary with peak g and sustained-event counts
@@ -34,9 +34,9 @@ the score is a rough smoothness thing, not a safety grade. hills, bumps, sensor 
 ## running it
 
 1. read the [build plan](docs/build-plan.md) and [wiring](hardware/wiring.md).
-2. pick exact parts and put real prices in the [BOM](hardware/bom.csv).
-3. open `firmware/` in VS Code with PlatformIO. use the `esp32-s3-devkitc-1` board for the N8/no-PSRAM version.
-4. build, upload through the board's USB-to-UART port, and open the serial monitor:
+2. review the [selected parts](hardware/parts.md) and [BOM](hardware/bom.csv). check checkout totals before ordering; the $30 budget isn't confirmed yet.
+3. open `firmware/` in VS Code with PlatformIO. the selected board is `seeed_xiao_esp32s3`.
+4. build, upload through the XIAO's USB-C port using a data cable, and open the serial monitor:
 
 ```sh
    cd firmware
@@ -63,6 +63,10 @@ python3 scripts/test.py
 - `docs/`: build plan, firmware notes, validation, references
 - `journal/`: work log (empty until i actually do the work)
 - `.github/workflows/`: automated host tests and firmware build
+
+## next design session
+
+open [the schematic walkthrough](docs/first-schematic.md). it gives you the connections to draw in KiCad and what to check before making a PCB.
 
 ## half-life
 
