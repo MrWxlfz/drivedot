@@ -4,6 +4,8 @@
 
 *revision a CAD render — this hasn't been printed or built yet.*
 
+> **parts update:** revision a (XIAO ESP32S3 + MPU6050 + OLED on a custom carrier pcb) needs soldering and i don't own a soldering iron. so the $30 warm-up parts list is a solder-free M5Stack Atom Matrix (esp32, BMI270 imu, button and 5×5 led matrix in its own case), a usb-c data cable and a 3M mounting square, all from DigiKey. the pcb, enclosure cad and firmware in this repo are still for revision a and haven't been ported to the Atom Matrix yet. that port is the next step.
+
 a little dashboard gadget that tells you how smooth your driving is.
 
 drivedot is an ESP32-S3 with an IMU and a tiny OLED. it reads acceleration, braking, and cornering, draws a live g-force dot on the screen, and gives you a summary when the drive ends. runs off usb, doesn't touch the car's electronics at all.
@@ -20,7 +22,7 @@ revision a has an actual schematic, routed carrier pcb, printable case and firmw
 - **checked:** schematic/pcb rules and portable motion, button and calibration tests; see [validation](docs/validation.md)
 - **still to do:** measure the real modules, confirm the full cost, print, solder, bench-test and record the results
 
-no physical fit test or road test yet, so no accuracy claims from me. the four main supplier listings total $13.24, but that leaves out fabrication, connectors, printing, fasteners, shipping and tax. **the complete $30 budget isn't confirmed.**
+no physical fit test or road test yet, so no accuracy claims from me. the logged parts list for the Atom Matrix version is $17.11 of parts plus $8.98 for shipping, tariff and estimated tax, about $26.09 of the $30. the tax is an estimate and nothing has been ordered yet. the revision a parts (fabrication, connectors, printing) aren't priced in that list.
 
 ## open the design
 
