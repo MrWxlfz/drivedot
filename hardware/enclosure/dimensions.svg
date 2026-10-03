@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1080" viewBox="0 0 1400 1080">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#506070" stroke-width="1"/></marker></defs>
+<rect width="1400" height="1080" fill="#f7f8fa"/>
+<g font-family="sans-serif" fill="#1b2935"><text x="65" y="62" font-size="34" font-weight="700">DriveDot / revision A dimensions</text><text x="65" y="101" font-size="18" fill="#586775">Millimetres • orthographic reference • physical module fit untested</text></g>
+<g transform="translate(110 180) scale(5)">
+<rect x="0" y="0" width="90" height="76" rx="5" fill="#e1e5eb" stroke="#243547" stroke-width=".45"/>
+<rect x="15" y="9" width="60" height="40" fill="none" stroke="#44836d" stroke-width=".35" stroke-dasharray="1 1"/>
+<rect x="48.5" y="19.4" width="23" height="13.2" rx="1" fill="#243547"/>
+<circle cx="32" cy="39" r="4.2" fill="#5d9ab9" stroke="#243547" stroke-width=".3"/>
+<g fill="white" stroke="#243547" stroke-width=".3"><circle cx="5" cy="5" r="1.7"/><circle cx="85" cy="5" r="1.7"/><circle cx="85" cy="71" r="1.7"/><circle cx="5" cy="71" r="1.7"/></g>
+<g fill="none" stroke="#44836d" stroke-width=".3"><circle cx="19" cy="13" r="1.6"/><circle cx="71" cy="13" r="1.6"/><circle cx="71" cy="45" r="1.6"/><circle cx="19" cy="45" r="1.6"/></g>
+<rect x="45" y="54.5" width="20" height="15" fill="none" stroke="#5383b6" stroke-width=".4" stroke-dasharray="1 1"/>
+<g stroke="#506070" stroke-width=".25" fill="none"><path d="M0,-5V-14 M90,-5V-14 M0,-11H90" marker-start="url(#arrow)" marker-end="url(#arrow)"/><path d="M-5,0H-14 M-5,76H-14 M-11,0V76" marker-start="url(#arrow)" marker-end="url(#arrow)"/></g>
+<g font-family="sans-serif" fill="#243547" font-size="3.8"><text x="42" y="-14">90</text><text x="-19" y="40">76</text><text x="25" y="84">+Y / BACK</text><text x="22" y="56" fill="#44836d">60 × 40 PCB</text></g>
+</g>
+<g font-family="sans-serif" fill="#243547"><text x="110" y="650" font-size="22" font-weight="700">TOP PLAN</text><text x="110" y="680" font-size="17">USB side is the top edge (Y = 0). Dashed green: carrier.</text></g>
+<g transform="translate(110 770) scale(5)">
+<rect x="0" y="0" width="90" height="34.4" rx="1" fill="#e1e5eb" stroke="#243547" stroke-width=".45"/>
+<path d="M0,2.4H90" fill="none" stroke="#243547" stroke-width=".25"/>
+<rect x="22" y="8.4" width="20" height="16" fill="#243547"/>
+<path d="M95,0H106 M95,34.4H106 M102,0V34.4" fill="none" stroke="#506070" stroke-width=".25" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="106" y="19" font-family="sans-serif" font-size="3.8" fill="#243547">34.4</text>
+<text x="46" y="19" font-family="sans-serif" font-size="3.3" fill="#243547">20 × 16 USB access</text>
+</g>
+<text x="110" y="990" font-family="sans-serif" font-size="22" font-weight="700" fill="#243547">FRONT ELEVATION</text>
+<g font-family="sans-serif" fill="#243547" font-size="19">
+<text x="720" y="190" font-size="24" font-weight="700">Mounting coordinates (X,Y)</text>
+<text x="720" y="230">Lid screws Ø3.4 clearance:</text><text x="720" y="261">(5,5) · (85,5) · (85,71) · (5,71)</text>
+<text x="720" y="309">Carrier holes Ø3.2:</text><text x="720" y="340">(19,13) · (71,13) · (71,45) · (19,45)</text>
+<text x="720" y="388">PCB lower-left: (15,9)</text><text x="720" y="419">PCB underside: Z = 6.0</text>
+<text x="720" y="467">OLED window: 23.0 × 13.2</text><text x="720" y="498">OLED centre: (60,26)</text>
+<text x="720" y="546">IMU centre: (55,62)</text><text x="720" y="577">IMU underside: Z = 4.8</text>
+<text x="720" y="625">Button centre: (32,39)</text><text x="720" y="656">Button cap maximum: Z = 37.65</text>
+<text x="720" y="717" font-size="24" font-weight="700">Construction</text>
+<text x="720" y="757">Walls / floor / lid: 2.4</text><text x="720" y="788">Outside corner radius: 5</text><text x="720" y="819">M3 pilot: 2.6 · M2 pilot: 1.7</text><text x="720" y="850">Lid lip lateral clearance: 0.30</text><text x="720" y="881">USB aperture: X22…42, Z10…26</text>
+</g>
+<text x="65" y="1043" font-family="sans-serif" font-size="16" fill="#586775">Reference drawing only. STEP and source contain detailed clamp, guide, boss and clearance geometry. Revise after parameter changes.</text>
+</svg>

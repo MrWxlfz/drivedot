@@ -1,10 +1,19 @@
 item,quantity,unit_usd,total_usd,specification,supplier_url,price_status
-Seeed Studio XIAO ESP32S3 SKU 113991114,1,7.49,7.49,"standard unsoldered 1pcs version; USB-C; not Sense or Plus",https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html,listed USD price checked 2026-10-02; checkout not quoted
-GY-521 MPU6050 ElectroPeak SEN-03-004,1,1.96,1.96,"I2C; VCC at 3.3V; verify received module",https://electropeak.com/gyro-accelerometer-gy521-mpu6050,listed USD price checked 2026-10-02; checkout not quoted
-SSD1306 I2C OLED ElectroPeak LCD-01-125,1,1.29,1.29,"128x64; 4-pin I2C; request white option; confirm selected variant price",https://electropeak.com/0-96-inch-i2c-oled-display-module-ssd1306,listed base USD price checked 2026-10-02; variant checkout not quoted
-Adafruit 367 tactile button 20-pack,1,2.50,2.50,"one full 20-pack purchase; use one button; 6mm through-hole",https://www.adafruit.com/product/367,listed USD pack price checked 2026-10-02; checkout not quoted
-Headers and wire,1,1.50,1.50,"unquoted allowance; verify included headers and available wire",,estimate only; supplier pending
-Carrier PCB fabrication,1,5.00,5.00,"unquoted allowance; minimum order and PCB shipping pending",,estimate only; supplier pending
-Enclosure printing and fasteners,1,2.00,2.00,"unquoted allowance; printer access and material pending",,estimate only; supplier pending
-USB-C data cable,1,2.00,2.00,"unquoted allowance; confirm available cable before adding a purchase",,estimate only; supplier pending
-Shipping tax and import charges,1,,,"unknown; requires all supplier checkout quotes; not zero",,unquoted; full total cannot yet be calculated
+Seeed Studio XIAO ESP32S3 SKU 113991114,1,7.49,7.49,standard unsoldered 1pcs version; USB-C; not Sense or Plus,https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html,listed USD price checked 2026-10-02; checkout not quoted
+GY-521 MPU6050 ElectroPeak SEN-03-004,1,1.96,1.96,I2C; VCC at 3.3V; verify received module,https://electropeak.com/gyro-accelerometer-gy521-mpu6050,listed USD price checked 2026-10-02; checkout not quoted
+SSD1306 I2C OLED ElectroPeak LCD-01-125,1,1.29,1.29,128x64; 4-pin I2C; request white option; confirm selected variant price,https://electropeak.com/0-96-inch-i2c-oled-display-module-ssd1306,listed base USD price checked 2026-10-02; variant checkout not quoted
+Adafruit 367 tactile button 20-pack,1,2.50,2.50,one full 20-pack purchase; use one button; 6mm through-hole,https://www.adafruit.com/product/367,listed USD pack price checked 2026-10-02; checkout not quoted
+Optional I2C pull-up resistors R1 R2,2,,,4.7k axial; 7.62mm lead spacing; DO NOT POPULATE unless measured breakout pull-ups require these,,optional DNP; not included in core parts subtotal
+XIAO socket strips,2,,,1x7 female 2.54mm pitch; selected stack height must match enclosure,,unquoted; supplier and purchase pack size pending
+XIAO male header strips,2,,,1x7 male 2.54mm pitch; may be included with XIAO; verify before buying,,unquoted; supplier and purchase pack size pending
+Carrier module headers,2,,,1x4 male 2.54mm pitch for J1 and J2,,unquoted; supplier and purchase pack size pending
+Module wire harnesses,2,,,4 conductors each; 2.54mm mating ends; verify each module pin order; short insulated wires,,unquoted; supplier and purchase pack size pending
+Module male headers,1,,,OLED 1x4 and GY-521 1x8 if not supplied or pre-soldered; verify exact received modules,,unquoted; supplier and purchase pack size pending
+Carrier PCB fabrication,1,,,60x40mm revision A; quote fabrication minimum quantity and delivery,,unquoted; supplier and purchase pack size pending
+Printed enclosure set,1,,,See hardware/enclosure README for complete STL set; material and printer access unquoted,,unquoted; supplier and purchase pack size pending
+M3x10 lid screws,4,,,See enclosure guide for head type and pilot requirements,,unquoted; supplier and purchase pack size pending
+M3x6 carrier screws,4,,,See enclosure guide; verify screw length against PCB and standoffs,,unquoted; supplier and purchase pack size pending
+M2x6 internal screws,9,,,4 OLED clamp; 4 IMU clamps; 1 button cap; verify actual engagement,,unquoted; supplier and purchase pack size pending
+Non-slip pads and mounting supplies,1,,,Optional pads do not substitute for secure level mounting; dimensions in enclosure guide,,unquoted; supplier and purchase pack size pending
+USB-C data cable,1,,,Verify existing cable before purchasing; USB shell fit must match enclosure opening,,unquoted; supplier and purchase pack size pending
+Shipping tax and import charges,1,,,Unknown; requires all supplier checkout quotes; not zero,,unquoted; supplier and purchase pack size pending

@@ -1,0 +1,14 @@
+{
+  "tool": "KiCad 9.0.9",
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "physical_prototype_tested": false,
+  "files_sha256": {
+    "drivedot.kicad_sch": "4d42d3d1f001157e1188ef0986b30e7f8b013ff5985b823c2d56de24590687e2",
+    "drivedot.kicad_pcb": "e947529245884d145aaeb40776ddca88c91974ef5d306943ffe1697c071c1d31"
+  },
+  "exclusions": 0,
+  "fabrication_zip_sha256": "4871e2e776fae9f1a873faa00237c240d8ffb803642088cedcaeb439f3666cc6"
+}

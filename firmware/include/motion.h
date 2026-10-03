@@ -38,11 +38,14 @@ struct Summary {
 
 class Motion {
  public:
-  void calibrate(float x, float y) {
+  bool calibrate(float x, float y) {
+    if (active_ || !std::isfinite(x) || !std::isfinite(y)) return false;
     baselineX_ = x; baselineY_ = y;
     forwardG = lateralG = 0;
     calibrated_ = true;
+    return true;
   }
+  void clearCalibration() { calibrated_ = false; active_ = false; }
   bool calibrated() const { return calibrated_; }
   bool active() const { return active_; }
   void start() {
@@ -55,7 +58,11 @@ class Motion {
   bool update(float x, float y, float dt, float forwardSign = 1,
               float lateralSign = 1) {
     if (!calibrated_ || !std::isfinite(x) || !std::isfinite(y) ||
-        !std::isfinite(dt) || dt <= 0 || dt > 0.2f) return false;
+        !std::isfinite(dt) || dt <= 0 || dt > 0.2f) {
+      // Missing time must not join two unrelated excursions into one dwell.
+      accel_.reset(); brake_.reset(); turn_.reset();
+      return false;
+    }
     // Time-based low-pass filter; the baseline stays fixed throughout a drive.
     const float alpha = 1.0f - std::exp(-dt / 0.12f);
     forwardG += alpha * ((x - baselineX_) / GRAVITY * forwardSign - forwardG);

@@ -1,29 +1,31 @@
 # Build plan
 
-## First session
+Revision A includes a carrier PCB, enclosure and standalone firmware. Start with [the assembly guide](assembly.md), [PCB files](../hardware/pcb/README.md) and [enclosure files](../hardware/enclosure/README.md).
 
-1. Choose exact dev board, OLED, and IMU. Replace budget targets with quotes.
-2. Read the wiring plan and redraw the circuit yourself in KiCad.
-3. Measure modules before committing footprints or enclosure dimensions.
-4. Save screenshots and explain each decision in your own journal.
+## Before ordering or printing
 
-## Prototype
+1. Review the schematic and check the selected module pinouts.
+2. Confirm supplier checkout totals, fabrication minimum quantities, shipping and tax. The $30 total is still unverified.
+3. Measure the received XIAO headers/USB connector, OLED glass and board, GY-521 board, switch and fasteners. Update the CAD parameters where needed.
+4. Inspect the fabrication and CAD checks, then review Gerbers in the manufacturer's viewer and STLs in a slicer.
 
-- Wire the modules on a bench and confirm their I²C addresses.
-- Compile and upload; inspect raw CSV data with the device stationary.
-- Calibrate without moving it. Test a straight push and stop, then sideways motion.
-- Adjust mounting signs and thresholds from recorded evidence.
-- Try the button, summary screen, and recovery from bad wiring with power disconnected.
+## Bench prototype
 
-## Design submission checklist
+1. Test the modules with short wires before committing the assembly to the case.
+2. Compile and upload the firmware; check stationary readings over USB serial.
+3. Hold the button to calibrate while still, then short-press to start and end a session.
+4. Test a straight push and stop, then sideways motion. Verify sensor axes and signs using recorded data.
+5. Test button debounce, sensor failure handling and recalibration. Change wiring only with power disconnected.
+6. Fit the parts, verify plunger travel and connector clearance, then repeat the stationary test in the closed enclosure.
 
-- [ ] Exact sourced parts with checkout prices and total cost.
-- [ ] Original KiCad schematic and PCB source files.
-- [ ] Reviewed power paths, footprints, ERC and DRC results.
-- [ ] Measured CAD enclosure, source file and export renders.
-- [ ] Firmware build result and honest test status.
-- [ ] Journal with actual work time and screenshots.
-- [ ] AI assistance disclosed according to the event's rules.
-- [ ] Event eligibility, funding, deadline timezone and submission requirements checked.
+## Evidence still needed
 
-Treat the screenshot's ten-hour Tier 1 threshold as a requirement to document real work, not a schedule to fill. A scaffold helps you start; it doesn't finish the hardware design.
+- [ ] Received module measurements and physical fit check.
+- [ ] Exact purchased parts, fabrication and checkout totals.
+- [ ] Assembled PCB power and continuity checks.
+- [ ] Firmware upload and real sensor/display/button results.
+- [ ] Calibration and motion recordings.
+- [ ] Photos, demo and journal with actual work time.
+- [ ] Event eligibility, AI-assistance rules, deadline timezone and submission requirements checked.
+
+The source and exports were created with AI assistance. Automated checks and rendered views are design evidence, not photographs or proof of a built device. The event's synced `BOM.md` and `JOURNAL.md` remain managed by Half-Life; log only real work and purchases there.

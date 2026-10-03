@@ -1,25 +1,21 @@
-# First KiCad session
+# Review the schematic
 
-Goal: draw the carrier connections yourself and understand each net before laying out copper. This is a walkthrough, not a completed schematic or a logged session.
+The revision A source and exports are in [hardware/pcb](../hardware/pcb/README.md). Open the supplied schematic in KiCad and follow these nets before assembling it.
 
-1. Create a KiCad project named `drivedot` in `hardware/pcb/`.
-2. Open Schematic Editor. Use the XIAO symbol and footprint resources linked from [Seeed's official page](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/). Read their license before redistributing them.
-3. Add connector symbols for the actual OLED and GY-521 modules, plus a normally-open push-button symbol. Use the exact module header pin order; don't assign an unverified footprint.
-4. Draw these connections:
+| Net | Connections | Purpose |
+| --- | --- | --- |
+| +3V3 | XIAO 3V3 to both module connectors | Powers the selected 3.3V-compatible modules |
+| GND | XIAO GND, both module connectors and button | Common return |
+| SDA | XIAO D4 / GPIO5 to OLED and IMU SDA | I2C data |
+| SCL | XIAO D5 / GPIO6 to OLED and IMU SCL | I2C clock |
+| BUTTON | XIAO D3 / GPIO4 to normally-open button | Pulls low when pressed; firmware enables an internal pull-up |
 
-| Net | Connections |
-| --- | --- |
-| +3V3 | XIAO 3V3 to IMU VCC and OLED VCC |
-| GND | XIAO GND to IMU GND, OLED GND and one switched button contact |
-| SDA | XIAO D4/GPIO5 to IMU SDA and OLED SDA |
-| SCL | XIAO D5/GPIO6 to IMU SCL and OLED SCL |
-| SESSION_BUTTON | XIAO D3/GPIO4 to the other switched button contact |
-| IMU_ADDRESS | GY-521 AD0 to GND for address 0x68; verify its existing pull-down |
+The display and sensor connect with short wire harnesses. Their generic breakout footprints are not soldered directly to the carrier: received module sizes and pin orders can differ. Follow each connector's numbered pin labels and the actual breakout silkscreen. The OLED and IMU carrier connectors use different power-pin orders.
 
-5. Inspect the selected breakout schematics for I2C pull-ups. Add pull-ups to 3.3V only if needed; don't blindly parallel extra pairs. Leave unused IMU XDA, XCL and INT unconnected.
-6. Label the nets, annotate the symbols and run ERC. Resolve genuine errors; investigate power-pin warnings rather than suppressing them with random flags.
-7. Save a screenshot and a journal entry explaining the wiring, what you checked, what confused you, and the real time spent.
+The GY-521's AD0 must be low for address `0x68`. Check its existing pull-down; wire AD0 to GND on the module if needed. Unused XDA, XCL and INT pins are left unconnected. The OLED is expected at `0x3C`.
 
-**Stop before PCB footprints** if you haven't confirmed the exact module pin order, header spacing or physical dimensions. A wiring diagram does not verify a footprint. Check the button with a meter so GPIO4 and GND reach opposite switched contacts, not two permanently joined legs.
+Check both breakouts for I2C pull-ups and supply requirements. Pull-ups must reference 3.3V; do not add extra resistors without checking the combined resistance. Verify the GY-521's regulated sensor rail when supplied with 3.3V, since generic boards use different regulators. Do not compensate by feeding 5V to GPIO-connected pull-ups.
 
-[The wiring table](../hardware/wiring.md) and [parts list](../hardware/parts.md) are the references for this session.
+With power disconnected, use a meter to check that the switch closes GPIO4 to GND only when pressed. Check that 3V3 and GND are not shorted, and check each harness end-to-end before connecting it.
+
+The CAD and electrical checks describe the design files. They do not verify soldering, received components or a physical prototype. Record what you inspect and change in your own journal, with the actual time spent.

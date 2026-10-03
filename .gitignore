@@ -8,3 +8,4 @@ build/
 *.kicad_prl
 *.kicad_sch.lck
 *.kicad_pcb.lck
+/hardware/enclosure/exports/

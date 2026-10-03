@@ -13,7 +13,10 @@ int main() {
   drivedot::Motion m;
   m.start(); assert(!m.active());
   assert(!m.update(0, 0, 0.02f));
+  assert(!m.calibrate(std::numeric_limits<float>::quiet_NaN(), 0));
+  assert(!m.calibrated());
   m.calibrate(0, 0); m.start();
+  assert(!m.calibrate(1, 2)); // Baseline cannot change during a session.
   samples(m, 0, 0, 100);
   assert(m.summary.score() == 100 && m.summary.peakG == 0);
   samples(m, 0.5f, 0, 100);
@@ -51,5 +54,13 @@ int main() {
   samples(shortDrive, 0.5f, 0, 500); samples(shortDrive, 0, 0, 500);
   samples(longDrive, 0.5f, 0, 1000); samples(longDrive, 0, 0, 1000);
   assert(std::abs(shortDrive.summary.score() - longDrive.summary.score()) <= 1);
+  longDrive.stop(); longDrive.clearCalibration(); longDrive.start();
+  assert(!longDrive.calibrated() && !longDrive.active());
+  drivedot::Motion gap;
+  gap.calibrate(0, 0); gap.start();
+  assert(gap.update(0.5f * drivedot::GRAVITY, 0, 0.2f));
+  assert(!gap.update(0.5f * drivedot::GRAVITY, 0, 1.0f));
+  samples(gap, 0.5f, 0, 6);
+  assert(gap.summary.accelerationEvents == 0); // Dwell restarts after lost time.
   std::cout << "Motion tests passed: calibration, filtering, event counts, session reset, score, invalid samples\n";
 }

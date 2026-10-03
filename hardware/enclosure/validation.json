@@ -1,0 +1,828 @@
+{
+  "source_sha256": "5e3d6e9c8d8f8c39953d6081327890d101bd5c117cbcc7f363ced0caed652746",
+  "parameters_mm": {
+    "width": 90.0,
+    "depth": 76.0,
+    "body_height": 32.0,
+    "lid_thickness": 2.4,
+    "wall": 2.4,
+    "floor": 2.4,
+    "corner": 5.0,
+    "pcb_x": 15.0,
+    "pcb_y": 9.0,
+    "pcb_bottom": 6.0,
+    "pcb_thickness": 1.6,
+    "pcb_width": 60.0,
+    "pcb_depth": 40.0,
+    "oled_x": 60.0,
+    "oled_y": 26.0,
+    "oled_w": 27.0,
+    "oled_d": 25.0,
+    "oled_total_height": 4.0,
+    "oled_bottom": 27.6,
+    "imu_x": 55.0,
+    "imu_y": 62.0,
+    "imu_w": 20.0,
+    "imu_d": 15.0,
+    "imu_bottom": 4.8,
+    "imu_pcb_thickness": 1.6,
+    "switch_height": 5.0,
+    "pilot_m2": 1.7,
+    "pilot_m3": 2.6,
+    "clearance_m2": 2.4,
+    "clearance_m3": 3.4
+  },
+  "cad_solids_valid": true,
+  "mesh_checks": {
+    "body": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 10678,
+      "solid_volume_mm3": 42309.47
+    },
+    "lid": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 6956,
+      "solid_volume_mm3": 17964.517
+    },
+    "button-plunger": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 1256,
+      "solid_volume_mm3": 529.422
+    },
+    "button-cap": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 1260,
+      "solid_volume_mm3": 115.854
+    },
+    "oled-clamp": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 2220,
+      "solid_volume_mm3": 1894.862
+    },
+    "imu-clamp-left": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 1588,
+      "solid_volume_mm3": 134.975
+    },
+    "imu-clamp-right": {
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "triangles": 1588,
+      "solid_volume_mm3": 134.975
+    }
+  },
+  "nominal_fit_checks": [
+    {
+      "first": "body",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "carrier-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "tactile-switch",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "oled-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "oled-glass",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "oled-active-area",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "imu-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "imu-chip",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "imu-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "imu-header-tails",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-right",
+      "second": "oled-header-keepout",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "lid",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "button-plunger",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "button-cap",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "oled-clamp",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-clamp-left",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "body",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "button-plunger",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "button-cap",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "oled-clamp",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-clamp-left",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "lid",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "button-cap",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "oled-clamp",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-clamp-left",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-plunger",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "oled-clamp",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-clamp-left",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "button-cap",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-clamp-left",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-clamp",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "imu-clamp-left",
+      "second": "imu-clamp-right",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-header-keepout",
+      "second": "connector-keepouts",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-header-keepout",
+      "second": "xiao-pcb",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-header-keepout",
+      "second": "usb-envelope",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "first": "oled-header-keepout",
+      "second": "xiao-sockets",
+      "intersection_mm3": 0.0,
+      "pass": true
+    }
+  ],
+  "all_nominal_fit_checks_pass": true,
+  "physical_fit_tested": false,
+  "printer_tolerance_tested": false,
+  "notes": [
+    "Generic module envelopes and socket heights remain assumptions.",
+    "Clamps contact PCB edge margins; inspect actual components before fitting.",
+    "Sensor axes must be verified against the actual module silkscreen."
+  ]
+}

@@ -13,9 +13,11 @@ These four listings total **$13.24 before shipping, tax or import charges**. Scr
 
 ## Budget check
 
-Unquoted allowances from the draft: headers/wire $1.50, PCB fabrication $5.00, enclosure/fasteners $2.00 and a USB-C data cable $2.00. These bring the provisional subtotal to **$23.74**, leaving **$6.26** for all delivery costs, taxes and overruns within $30.
+The four core listings total **$13.24**, leaving **$16.76 of a $30 budget** before the carrier, connectors, fasteners, printing, cable, shipping and tax. That remaining amount is not an approved or quoted budget.
 
-That is a tight budget across multiple suppliers and a PCB manufacturer. **The complete Tier 1 budget is not verified.** Do not enter the allowances as real vendor quotes or treat an empty shipping cell as zero. Confirm checkout totals and fabrication pricing; reduce shipping through available supplies or consolidated sourcing, or revise scope/funding tier under the event rules.
+Revision A also needs two 1x7 XIAO socket strips, mating male headers, two 1x4 carrier headers, two short four-wire module harnesses, the printed part set, four M3x10 screws, four M3x6 screws and nine M2x6 screws. The exact head types and print details are in the [enclosure guide](enclosure/README.md). Count any supplied or already-owned parts before buying duplicates. The [planning CSV](bom.csv) separates these required quantities from the four priced listings; unquoted cells are intentionally blank.
+
+**The complete Tier 1 budget is not verified.** Previous generic allowances are not supplier quotes for this finished design. Confirm checkout totals and fabrication pricing, including minimum order and pack quantities. Shipping from multiple suppliers may require consolidated sourcing or available supplies to meet the target.
 
 ## Why this controller
 
@@ -26,9 +28,9 @@ The XIAO has a compact form factor and a documented pinout and KiCad resources. 
 
 Version 1 remains USB powered. It does not need a battery, Grove base, camera expansion board or RGB strip.
 
-## Before committing footprints
+## Before ordering revision A
 
-Use the module schematics and received board markings. Keep I2C at 3.3V, inspect the GY-521 regulator and pull-ups, check OLED address and pin order, and measure headers and mounting holes. Cheap generic breakouts can differ between batches. Supplier dimensional claims are starting points, not a completed mechanical fit check.
+The carrier uses socket/header footprints, with wired connections to the generic breakouts. Use the module schematics and received board markings. Keep I2C at 3.3V, inspect the GY-521 regulator and pull-ups, check OLED address and pin order, and measure headers and mounting holes. Cheap generic breakouts can differ between batches. Supplier dimensional claims are starting points, not a completed mechanical fit check.
 
 ## Half-Life parts entry
 
