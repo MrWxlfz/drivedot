@@ -1,5 +1,9 @@
 # DriveDot
 
+![DriveDot planned hardware architecture](docs/drivedot-concept.svg)
+
+*concept diagram — the pcb and enclosure are still to be designed.*
+
 a little dashboard gadget that tells you how smooth your driving is.
 
 drivedot is an ESP32-S3 with an IMU and a tiny OLED. it reads acceleration, braking, and cornering, draws a live g-force dot on the screen, and gives you a summary when the drive ends. runs off usb, doesn't touch the car's electronics at all.
