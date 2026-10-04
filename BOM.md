@@ -23,7 +23,7 @@
 | [GY-521 MPU6050 6-axis accelerometer/gyro module (2-pack)](https://www.amazon.com/dp/B0CYZ7BW1S) | Motion sensor that measures acceleration, braking and cornering (I2C address 0x68). One pack, second sensor is a spare | 1 | $7.98 | $7.98 | [Amazon](https://www.amazon.com/dp/B0CYZ7BW1S) |
 | [Custom carrier PCB, 2-layer FR-4, 60 x 40 mm, 1.6 mm (min. order of 5)](https://cart.jlcpcb.com/quote) | Carries the XIAO sockets, OLED and IMU connectors and the button (Rev A gerbers in repo) | 1 | $4.00 | $4.00 | [JLCPCB](https://cart.jlcpcb.com/quote) |
 | **Parts subtotal** | — | — | — | **$32.02** | — |
-| **Tax & shipping** | — | — | — | **$8.98** | — |
-| **Total** | — | — | — | **$41.00** | — |
+| **Tax & shipping** | — | — | — | **$15.90** | — |
+| **Total** | — | — | — | **$47.92** | — |
 
-**$11.00 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$17.92 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
