@@ -12,11 +12,10 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [M5Stack Atom Matrix ESP32 Dev Kit v1.1 (C008-B-V11)](https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/C008-B-V11/29427559) | Controller, BMI270 motion sensor, button, and 5x5 LED display in one assembled unit | 1 | $14.95 | $14.95 | [DigiKey](https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/C008-B-V11/29427559) |
 | [USB-A to USB-C data cable, 1 m (Cvilux DH-20M50052)](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50052/13177409) | Power and programming from the car's USB port | 1 | $1.80 | $1.80 | [DigiKey](https://www.digikey.com/en/products/detail/cvilux-usa/DH-20M50052/13177409) |
 | [3M 4026 double-sided mounting square, 3/4 in](https://www.digikey.com/en/products/detail/3m/4026-3-4-X3-4/1818870) | Sticks the device flat to the dashboard | 1 | $0.36 | $0.36 | [DigiKey](https://www.digikey.com/en/products/detail/3m/4026-3-4-X3-4/1818870) |
-| **Parts subtotal** | — | — | — | **$17.11** | — |
+| **Parts subtotal** | — | — | — | **$2.16** | — |
 | **Tax & shipping** | — | — | — | **$8.98** | — |
-| **Total** | — | — | — | **$26.09** | — |
+| **Total** | — | — | — | **$11.14** | — |
 
-$3.91 left of the tier's funding.
+$18.86 left of the tier's funding.
