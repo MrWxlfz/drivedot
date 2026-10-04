@@ -2,9 +2,7 @@
 
 ![DriveDot revision A enclosure render](hardware/enclosure/renders/assembled.png)
 
-*revision a CAD render — this hasn't been printed or built yet.*
-
-> **parts update:** revision a (XIAO ESP32S3 + MPU6050 + OLED on a custom carrier pcb) needs soldering and i don't own a soldering iron. so the $30 warm-up parts list is a solder-free M5Stack Atom Matrix (esp32, BMI270 imu, button and 5×5 led matrix in its own case), a usb-c data cable and a 3M mounting square, all from DigiKey. the pcb, enclosure cad and firmware in this repo are still for revision a and haven't been ported to the Atom Matrix yet. that port is the next step.
+*revision a CAD render — this hasn't been printed or built yet!!!!1*
 
 a little dashboard gadget that tells you how smooth your driving is.
 
