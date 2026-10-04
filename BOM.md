@@ -24,7 +24,7 @@
 | [Custom carrier PCB, 2-layer FR-4, 60 x 40 mm, 1.6 mm (min. order of 5)](https://cart.jlcpcb.com/quote) | Carries the XIAO sockets, OLED and IMU connectors and the button (Rev A gerbers in repo) | 1 | $4.00 | $4.00 | [JLCPCB](https://cart.jlcpcb.com/quote) |
 | [BTF-Lighting WS2812B RGB LED strip, 5V, 60 LED/m, 3.28 ft](https://www.amazon.com/dp/B088BRY2SH) | Smoothness light that goes green to yellow to red as forces get harsher (planned add-on, a short cut length is used) | 1 | $7.99 | $7.99 | [Amazon](https://www.amazon.com/dp/B088BRY2SH) |
 | **Parts subtotal** | — | — | — | **$40.01** | — |
-| **Tax & shipping** | — | — | — | **$15.90** | — |
-| **Total** | — | — | — | **$55.91** | — |
+| **Tax & shipping** | — | — | — | **$16.56** | — |
+| **Total** | — | — | — | **$56.57** | — |
 
-**$25.91 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$26.57 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
