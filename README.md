@@ -19,9 +19,9 @@ revision a has an actual schematic, routed carrier pcb, printable case and firmw
 - **implemented:** standalone button controls, calibration, live display, session summary and usb csv
 - **checked:** schematic/pcb rules and portable motion, button and calibration tests; see [validation](docs/validation.md)
 - **still to do:** measure the real modules, confirm the full cost, print, solder, bench-test and record the results
-- **planned:** a small ws2812 rgb led strip that goes green → yellow → red as the forces get harsher. it isn't on the revision a pcb or in the case cad yet, so it's not in the parts list
+- **planned:** a small ws2812 rgb led strip that goes green → yellow → red as the forces get harsher. it's in the parts list, but it isn't on the revision a pcb or in the case cad yet
 
-no physical fit test or road test yet, so no accuracy claims from me. the half life parts list is at about $47.92 so far (digikey and amazon parts, pcbs from jlcpcb, shipping, tariffs and a tax ceiling), and i'm aiming for tier 2 ($65). still missing from that total: the printed enclosure, screws and soldering supplies. tax and the final pcb order total are estimates until checkout, and nothing has been ordered yet. the parts research and pricing were done with claude.
+no physical fit test or road test yet, so no accuracy claims from me. the half life parts list is at about $56.57 so far (digikey and amazon parts, pcbs from jlcpcb, shipping, tariffs and a tax ceiling), and i'm aiming for tier 2 ($65). still missing from that total: the printed enclosure, screws and soldering supplies. tax and the final pcb order total are estimates until checkout, and nothing has been ordered yet. the parts research and pricing were done with claude.
 
 ## open the design
 
