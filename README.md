@@ -72,10 +72,6 @@ to run the logic tests without a microcontroller:
 python3 scripts/test.py
 ```
 
-## half-life
-
-[journal entries](JOURNAL.md) and the event's [parts list](BOM.md) are synced by half-life. i'll record my actual work, measurements, photos and time there. the generated design files and renders aren't evidence of a physical build or hours spent by me. event eligibility and submission requirements still need checking.
-
 ## license
 
 MIT. see [LICENSE](LICENSE).
